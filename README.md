@@ -1,7 +1,12 @@
-# secozy
+# Flutter Bloc Template
 
-Secozy
-
+ - Flutter Bloc Template with DI `https://github.com/brianegan/flutter_architecture_samples/tree/master/bloc_flutter/lib`
+ - Using flutter_bloc, Dio, SharedPreferences Packages
+ - Has Localization
+ - SplashScreen
+ - LoginScreen
+ - Homepage
+ 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
