@@ -1,0 +1,42 @@
+name: secozy
+description: First Project
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_bloc: ^0.11.1
+  equatable: ^0.2.0
+  dio: ^2.1.2
+  shared_preferences: ^0.5.2
+  cupertino_icons: ^0.1.2
+  device_info: ^0.4.0+1
+  shimmer: ^1.0.0
+  flutter_statusbar_manager: ^1.0.2
+  material_design_icons_flutter: ^3.2.3595
+  jaguar_serializer: ^2.2.12
+  sqflite: ^1.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+  - lib/resources/lang/id.json
+  - lib/resources/lang/en.json
+  - images/secozy.png
+
+  fonts:
+    - family: nunitoSansRegular
+      fonts:
+        - asset: fonts/NunitoSans-Regular.ttf
+

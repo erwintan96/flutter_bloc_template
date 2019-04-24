@@ -1,0 +1,4 @@
+enum ButtonState{
+  LOADING,
+  IDLE
+}
